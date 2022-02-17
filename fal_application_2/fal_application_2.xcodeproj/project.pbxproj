@@ -19,6 +19,13 @@
 		111F781B27BEF56E0053C784 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F781627BEF56E0053C784 /* Colors.swift */; };
 		111F781C27BEF56E0053C784 /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F781727BEF56E0053C784 /* GlobalVariables.swift */; };
 		111F781E27BEF5750053C784 /* MyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F781D27BEF5750053C784 /* MyController.swift */; };
+		111F782027BEF72C0053C784 /* FalSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F781F27BEF72C0053C784 /* FalSecViewController.swift */; };
+		111F782227BEFC6F0053C784 /* falci_detayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F782127BEFC6F0053C784 /* falci_detayViewController.swift */; };
+		111F782427BEFCAA0053C784 /* HakkındaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F782327BEFCAA0053C784 /* HakkındaViewController.swift */; };
+		111F782627BEFCDC0053C784 /* yorumlarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F782527BEFCDC0053C784 /* yorumlarViewController.swift */; };
+		111F782827BEFD0C0053C784 /* forgotpassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F782727BEFD0C0053C784 /* forgotpassViewController.swift */; };
+		111F782A27BF05160053C784 /* falcidetayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F782927BF05160053C784 /* falcidetayTableViewCell.swift */; };
+		111F782C27BF12770053C784 /* yorumlarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111F782B27BF12770053C784 /* yorumlarTableViewCell.swift */; };
 		1254AEFF979AD27052A10943 /* Pods_fal_application_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87F427E38611137F4847B87B /* Pods_fal_application_2.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +44,13 @@
 		111F781627BEF56E0053C784 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		111F781727BEF56E0053C784 /* GlobalVariables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
 		111F781D27BEF5750053C784 /* MyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyController.swift; sourceTree = "<group>"; };
+		111F781F27BEF72C0053C784 /* FalSecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalSecViewController.swift; sourceTree = "<group>"; };
+		111F782127BEFC6F0053C784 /* falci_detayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falci_detayViewController.swift; sourceTree = "<group>"; };
+		111F782327BEFCAA0053C784 /* HakkındaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HakkındaViewController.swift"; sourceTree = "<group>"; };
+		111F782527BEFCDC0053C784 /* yorumlarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yorumlarViewController.swift; sourceTree = "<group>"; };
+		111F782727BEFD0C0053C784 /* forgotpassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotpassViewController.swift; sourceTree = "<group>"; };
+		111F782927BF05160053C784 /* falcidetayTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falcidetayTableViewCell.swift; sourceTree = "<group>"; };
+		111F782B27BF12770053C784 /* yorumlarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yorumlarTableViewCell.swift; sourceTree = "<group>"; };
 		1140240148D069072E68D708 /* Pods-fal_application_2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fal_application_2.debug.xcconfig"; path = "Target Support Files/Pods-fal_application_2/Pods-fal_application_2.debug.xcconfig"; sourceTree = "<group>"; };
 		87F427E38611137F4847B87B /* Pods_fal_application_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fal_application_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C529732E28C1EFBD534A45A1 /* Pods-fal_application_2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fal_application_2.release.xcconfig"; path = "Target Support Files/Pods-fal_application_2/Pods-fal_application_2.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,6 +94,13 @@
 				111F781D27BEF5750053C784 /* MyController.swift */,
 				111F780027BEF4BE0053C784 /* SceneDelegate.swift */,
 				111F780227BEF4BE0053C784 /* ViewController.swift */,
+				111F782727BEFD0C0053C784 /* forgotpassViewController.swift */,
+				111F782527BEFCDC0053C784 /* yorumlarViewController.swift */,
+				111F782B27BF12770053C784 /* yorumlarTableViewCell.swift */,
+				111F782327BEFCAA0053C784 /* HakkındaViewController.swift */,
+				111F782127BEFC6F0053C784 /* falci_detayViewController.swift */,
+				111F782927BF05160053C784 /* falcidetayTableViewCell.swift */,
+				111F781F27BEF72C0053C784 /* FalSecViewController.swift */,
 				111F780427BEF4BE0053C784 /* Main.storyboard */,
 				111F780727BEF4BF0053C784 /* Assets.xcassets */,
 				111F780927BEF4BF0053C784 /* LaunchScreen.storyboard */,
@@ -232,13 +253,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				111F782027BEF72C0053C784 /* FalSecViewController.swift in Sources */,
 				111F781927BEF56E0053C784 /* DesignClass.swift in Sources */,
 				111F781A27BEF56E0053C784 /* TextFieldExtensions.swift in Sources */,
 				111F781C27BEF56E0053C784 /* GlobalVariables.swift in Sources */,
+				111F782C27BF12770053C784 /* yorumlarTableViewCell.swift in Sources */,
+				111F782827BEFD0C0053C784 /* forgotpassViewController.swift in Sources */,
 				111F781E27BEF5750053C784 /* MyController.swift in Sources */,
 				111F780327BEF4BE0053C784 /* ViewController.swift in Sources */,
+				111F782227BEFC6F0053C784 /* falci_detayViewController.swift in Sources */,
 				111F781B27BEF56E0053C784 /* Colors.swift in Sources */,
 				111F77FF27BEF4BE0053C784 /* AppDelegate.swift in Sources */,
+				111F782427BEFCAA0053C784 /* HakkındaViewController.swift in Sources */,
+				111F782627BEFCDC0053C784 /* yorumlarViewController.swift in Sources */,
+				111F782A27BF05160053C784 /* falcidetayTableViewCell.swift in Sources */,
 				111F780127BEF4BE0053C784 /* SceneDelegate.swift in Sources */,
 				111F781827BEF56E0053C784 /* ImageExtensions.swift in Sources */,
 			);
