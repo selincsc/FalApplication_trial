@@ -23,7 +23,7 @@ class falci_detayViewController: MyController, UITableViewDelegate, UITableViewD
         didSet{
             table_view_outlet.delegate = self
             table_view_outlet.dataSource = self
-            table_view_outlet.rowHeight = 184     }
+            table_view_outlet.rowHeight = 162     }
     }
     
 

@@ -18,7 +18,11 @@ class falcidetayTableViewCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
     }
-    @IBOutlet weak var view_outlet: UIView!
+    @IBOutlet weak var view_outlet: UIView!{
+        didSet{
+            view_outlet.layer.borderWidth = 1
+        }
+    }
     
     @IBOutlet weak var name_label_outlet: UILabel!
     

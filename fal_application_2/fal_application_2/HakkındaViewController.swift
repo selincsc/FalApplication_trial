@@ -15,6 +15,7 @@ class Hakk_ndaViewController: MyController {
        
     }
     
+   
     @IBOutlet weak var name_falci_label_outlet: UILabel!{
         didSet{
             name_falci_label_outlet.text = falci_detay["data"]["falci_name"].stringValue
@@ -37,7 +38,7 @@ class Hakk_ndaViewController: MyController {
     
     
     @IBAction func comment_button_action(_ sender: Any) {
-        showVC(identifierName: "commentViewController")
+        showVC(identifierName: "yorumlarViewController")
     }
     
     

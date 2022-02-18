@@ -34,7 +34,7 @@ open class view2_desing: UIView {
     
     func setup() {
         layer.cornerRadius = 12
-        
+    
     }
     
     override init(frame: CGRect) {
@@ -71,6 +71,9 @@ open class button_desing: UIButton {
 }
 @IBDesignable
 open class label_desing: UILabel {
+    
+    
+    
         
     func setup() {
     

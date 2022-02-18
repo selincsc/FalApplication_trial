@@ -8,20 +8,18 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
-class yorumlarViewController: MyController, UIdelegate {
+class yorumlarViewController: MyController, UITableViewDelegate, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        posts_request_json(id: falci_detay["data"]["falci_id"].stringValue)
 
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func back_button_action(_ sender: Any) {
         dismiss(animated: true)
     }
     
-    @IBOutlet weak var comment_label_outlet: UILabel!
-    @IBOutlet weak var date_label_outlet: UILabel!
     @IBOutlet weak var table_view_outlet: UITableView!{
         didSet{
             table_view_outlet.delegate = self
@@ -30,7 +28,7 @@ class yorumlarViewController: MyController, UIdelegate {
         }
     }
     
-    @IBOutlet weak var rating_view_outlet: UIView!
+  
     
 }
 extension yorumlarViewController{
